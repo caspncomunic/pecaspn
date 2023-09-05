@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caspn</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link
+      href="https://fonts.google.com/specimen/Cabin+Sketch"
+      rel="stylesheet"
+   >
+
+    <script
+      src="https://kit.fontawesome.com/6d6952c5be.js"
+      crossorigin="anonymous"
+   ></script>
+  </head>
+  <body>
+    <header>
+      <nav class="menu">
+        <ul class="container">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#portfolio">Conteúdos </a></li>
+          <li><a href="#contato">Redes Sociais</a></li>
+        </ul>
+      </nav>
+      <div class="titulo">
+        <h1 class="site-title"> CASPN</h1>
+        <h2 class="site-subtitle"> Coordenação de Atenção Integral a Saúde da População Negra </h2>
+      </div>
+    </header>
+    <section class="sobre container" id="sobre">
+      <h2>Sobre</h2>
+
+      <p>
+       A Coordenação de Atenção Integral a Saúde da População Negra do Estado de Pernambuco (CASPN) atua em articulação com as 12 Gerências Regionais de Saúde e Secretarias Municipais de  Saúde na construção de linhas de cuidado e no desenvolvimento e execução de ações de saúde para a população negra do estado. A Política Nacional de Saúde Integral da População Negra foi instituída pela Portaria MS/GM nº 992/2009. Em Pernambuco, a Política Estadual de Saúde da População Negra foi firmada através do  Decreto estadual Nº 37.949 de 08 de março de 2012, ambas são  conquistas dos movimentos sociais e da População Negra, frente às desigualdades em saúde que acometem essa população. De igual modo, essas políticas reconhecem a existência de condições de vida desfavoráveis associadas a injustos processos sociais, culturais e econômicos da história do país, expressos nas altas taxas de morbimortalidade destas pessoas.  
+      </p>
+      
+      <p>
+        Este site foi construído pela Residenteem Saúde Coletiva da FCM -
+        <a href="https://www.instagram.com/melba.santi/?hl=pt-br">Melba Santiago</a>
+        😻
+      </p>
+    </section>
+    <section class="portfolio container" id="portfolio">
+      <h2>Conteúdos</h2>
+
+      <div class="grid">
+		  
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+              <img class="img-portfolio" src="https://img.freepik.com/vetores-gratis/ilustracao-plana-de-afrocolombianidad_23-2149373065.jpg?size=626&ext=jpg&ga=GA1.1.772797361.1693832725&semt=ais" alt="Alura">
+            </figure>
+            <div class="card-back">
+              <h3> Folders </h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+              <img class="img-portfolio" src="https://saude.abril.com.br/wp-content/uploads/2023/01/487_com-a-palavra_sau%CC%81de-populac%CC%A7a%CC%83o-negra.png?w=680&h=453&crop=1" alt="Caelum">
+            </figure>
+            <div class="card-back">
+              <h3> Política </h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+              <img class="img-portfolio" src="https://portal.fiocruz.br/sites/portal.fiocruz.br/files/imagemTopo/pesquisa_pip_racismo.jpg" alt="Hipsters.Tech">
+            </figure>
+            <div class="card-back">
+				      <h3> Eventos</h3>
+            </div>
+          </div>
+        </div>
+
+    </section>
+    <section class="contato container" id="contato">
+      <h2>Redes Socias</h2>
+
+      <div class="grid icons">
+        <a target="_blank" href="https://github.com/caspncomunic">
+          <i class="fab fa-github"></i>
+        </a>
+        <a target="_blank" href="https://twitter.com/CASPNpe">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a target="_blank" href="https://www.instagram.com/caspnpe/">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+    </section>
+  </body>
+</html>
